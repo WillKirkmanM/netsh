@@ -1,0 +1,9 @@
+[package]
+name = "netsh"
+version = "0.1.0"
+edition = "2024"
+description = "The Netsh Command Reviews Saved Windows Firewall Rules, Highlighting Enabled Inbound Allow Rules with Unrestricted Remote Addresses"
+keywords = ["parsonlabs", "windows", "firewall", "cli"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
